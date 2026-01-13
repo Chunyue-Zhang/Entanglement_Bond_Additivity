@@ -4,7 +4,7 @@
 
 This repository contains the main numerical simulation code for the research paper **"Bond Additivity and Persistent Geometric Imprints of Entanglement in Quantum Thermalization"** by Chun-Yue Zhang, Shi-Xin Zhang, and Zi-Xiang Li.
 
-Copyright (c) 2025 Chun-yue Zhang. The code is released under the [Apache License 2.0](LICENSE).
+Copyright (c) 2026 Chun-yue Zhang. The code is released under the [Apache License 2.0](LICENSE.txt).
 
 ## Repository Structure
 
