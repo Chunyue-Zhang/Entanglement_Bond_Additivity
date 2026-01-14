@@ -8,48 +8,36 @@ Copyright (c) 2026 Chun-yue Zhang. The code is released under the [Apache Licens
 
 ## Repository Structure
 
-The simulation code is organized according to different dynamics within `src/`. The code for symmetry analysis is also included.
+The simulation code is organized according to different dynamics within `src/`.
 
 ```
 src/
-├── bipartitions_symmetry_analysis/
-│   ├── bipartitions_symmetry_analysis_L12.py
-│   └── bipartitions_symmetry_analysis_L16.py
-│
 ├── Floquet/
 │   ├── Floquet_EEs_under_symmetry_inequivalent_bipartitions.py
-│   ├── Floquet_entropies_to_calculate_mutual informations.py
-│   └── Floquet_HCEE_evolution.py
+│   └── Floquet_entropies_to_calculate_mutual informations.py
 │
 ├── MBL/
 │   ├── MBL_EEs_under_symmetry_inequivalent_bipartitions.py
-│   ├── MBL_entropies_to_calculate_mutual informations.py
-│   └── MBL_HCEE_evolution.py
+│   └── MBL_entropies_to_calculate_mutual informations.py
 │
 ├── mixed_field/
 │   ├── mixed_field_EEs_under_symmetry_inequivalent_bipartitions.py
-│   ├── mixed_field_entropies_to_calculate_mutual informations.py
-│   └── mixed_field_HCEE_evolution.py
+│   └── mixed_field_entropies_to_calculate_mutual informations.py
 │
 ├── NN_thermal/
 │   ├── NN_thermal_EEs_under_symmetry_inequivalent_bipartitions.py
-│   ├── NN_thermal_entropies_to_calculate_mutual informations.py
-│   └── NN_thermal_HCEE_evolution.py
+│   └── NN_thermal_entropies_to_calculate_mutual informations.py
 │
 ├── NNN_thermal/
 │   ├── NNN_thermal_EEs_under_symmetry_inequivalent_bipartitions.py
-│   ├── NNN_thermal_entropies_to_calculate_mutual informations.py
-│   └── NNN_thermal_HCEE_evolution.py
-│
-├── RPS_NN_thermal/                                                      # dynamics governed by H_NN(W=0.5) starting from random product state (RPS)
-│   ├── RPS_NN_thermal_EEs_under_symmetry_inequivalent_bipartitions.py
-│   └── RPS_NN_thermal_HCEE_evolution.py
+│   └── NNN_thermal_entropies_to_calculate_mutual informations.py
 │
 └── RQC/
     ├── RQC_EEs_under_symmetry_inequivalent_bipartitions.py
-    ├── RQC_entropies_to_calculate_mutual informations.py
-    └── RQC_HCEE_evolution.py
+    └── RQC_entropies_to_calculate_mutual informations.py
 ```
+
+The data for the figures in the main text are within `data/`.
 
 ## Citation
 
