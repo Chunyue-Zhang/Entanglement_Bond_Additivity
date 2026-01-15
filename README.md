@@ -4,7 +4,7 @@
 
 This repository contains the main numerical simulation code for the research paper **"Bond Additivity and Persistent Geometric Imprints of Entanglement in Quantum Thermalization"** by Chun-Yue Zhang, Shi-Xin Zhang, and Zi-Xiang Li.
 
-Copyright (c) 2026 Chun-yue Zhang. The code is released under the [Apache License 2.0](LICENSE.txt).
+Copyright (c) 2026 Chun-yue Zhang. The code is released under the [Apache License 2.0](LICENSE).
 
 ## Repository Structure
 
@@ -37,7 +37,15 @@ src/
     └── RQC_entropies_to_calculate_mutual informations.py
 ```
 
-The data for the figures in the main text are within `data/`.
+The data for the figures in the main text are within `data/`. They are stored as Python dictionaries in the corresponding .pkl files. Each dictionary contains several keys corresponding to different data arrays. You can load the data using the pickle module, for example:
+    ```python
+    import pickle
+
+    with open('FIG1b.pkl','rb') as f:
+        data=pickle.load(f)
+    
+    print(data)
+    ```
 
 ## Citation
 
