@@ -38,14 +38,15 @@ src/
 ```
 
 The data for the figures in the main text are within `data/`. They are stored as Python dictionaries in the corresponding .pkl files. Each dictionary contains several keys corresponding to different data arrays. You can load the data using the pickle module, for example:
-    ```python
-    import pickle
 
-    with open('FIG1b.pkl','rb') as f:
-        data=pickle.load(f)
-    
-    print(data)
-    ```
+```python
+import pickle
+
+with open('FIG1b.pkl','rb') as f:
+    data=pickle.load(f)
+
+print(data)
+```
 
 ## Citation
 
